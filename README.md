@@ -6,7 +6,11 @@ This souce code is highly encouraged from [`Deepface`](https://github.com/sereng
 For face detection, [`SSD`](https://sefiks.com/2020/08/25/deep-face-detection-with-opencv-in-python/) is used.
 For facial expression recognition, [`emotion`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) is used.
 
+The execution speed (face detection + emotion recognition) is approx 0.06 sec per frame. To measure the execution speed, we basically assumed that only one face is detected. However, this source code also can work with multiple results of face detection.
+
 This source code have been implimented based on Ubuntu 20.04 (64bit)
+
+
 Running environment is as follows:
 ```
 GPU: Geforce RTX 2080ti
