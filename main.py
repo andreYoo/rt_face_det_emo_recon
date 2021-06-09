@@ -46,6 +46,7 @@ tic = time.time()
 cap = cv2.VideoCapture(0) #webcam
 _cnt_frame = 0
 while(True):
+    _start = time.time()
     ret, img = cap.read()
     _cnt_frame +=1
     if img is None:
@@ -215,6 +216,7 @@ while(True):
 
     else:
         cv2.imshow('img',img)
+    print('Execution speed: %f sec'%(time.time()-_start))
 
     if cv2.waitKey(1) & 0xFF == ord('q'): #press q to quit
         break
