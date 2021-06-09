@@ -7,9 +7,9 @@ For face detection, [`SSD`](https://sefiks.com/2020/08/25/deep-face-detection-wi
 For facial expression recognition, [`emotion`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) is used.
 
 ## How to prepare.
-#Install customed lib of Deepface.
+Install custom library of Deepface.
 ```
-cd ./lib/deepface
+cd ./libs/deepface
 python setup.py install
 ```
 
@@ -17,7 +17,7 @@ python setup.py install
 ```
 python main.py
 ```
-
+*it is possible that an extra library needs to be installed to run this source code.
 
 ## Citation
 
