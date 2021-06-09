@@ -6,6 +6,14 @@ This souce code is highly encouraged from [`Deepface`](https://github.com/sereng
 For face detection, [`SSD`](https://sefiks.com/2020/08/25/deep-face-detection-with-opencv-in-python/) is used.
 For facial expression recognition, [`emotion`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) is used.
 
+This source code have been implimented based on Ubuntu 20.04 (64bit)
+Running environment is as follows:
+```
+GPU: Geforce RTX 2080ti
+Driver: 460.73.01
+CUDA version: 11.2
+```
+
 ## How to prepare.
 Install custom library of Deepface.
 ```
