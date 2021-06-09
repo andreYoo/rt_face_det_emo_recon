@@ -1,5 +1,5 @@
-# Real-time face detection and expression recognition
-Real time face detection and expression recognition
+# Real-time face detection and emotion recognition
+Real time face detection and emotion recognition
 
 This souce code is highly encouraged from [`Deepface`](https://github.com/serengil/deepface).
 
