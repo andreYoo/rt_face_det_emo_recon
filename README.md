@@ -6,6 +6,18 @@ This souce code is highly encouraged from [`Deepface`](https://github.com/sereng
 For face detection, [`SSD`](https://sefiks.com/2020/08/25/deep-face-detection-with-opencv-in-python/) is used.
 For facial expression recognition, [`emotion`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) is used.
 
+## How to prepare.
+#Install customed lib of Deepface.
+```
+cd ./lib/deepface
+python setup.py install
+```
+
+## How to run demo
+```
+python main.py
+```
+
 
 ## Citation
 
