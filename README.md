@@ -15,6 +15,7 @@ Running environment is as follows:
 ```
 GPU: Geforce RTX 2080ti
 Driver: 460.73.01
+Python version: 3.6
 CUDA version: 11.2
 ```
 
