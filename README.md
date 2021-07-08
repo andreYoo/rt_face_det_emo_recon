@@ -21,7 +21,7 @@ CUDA version: 11.2
 ## How to prepare.
 Install custom library of Deepface.
 ```
-cd ./libs/deepface
+cd ./libs/deepface_mod
 python setup.py install
 ```
 
