@@ -1,7 +1,7 @@
-# Real-time face detection and emotion recognition
-Real time face detection and emotion recognition
+# Real-time face detection and expression recognition
+Real time face detection and expression recognition
 
-This source code is highly encouraged by [`Deepface`](https://github.com/serengil/deepface).
+This souce code is highly encouraged from [`Deepface`](https://github.com/serengil/deepface).
 
 For face detection, [`SSD`](https://sefiks.com/2020/08/25/deep-face-detection-with-opencv-in-python/) is used.
 For facial expression recognition, [`emotion`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) is used.
@@ -15,7 +15,6 @@ Running environment is as follows:
 ```
 GPU: Geforce RTX 2080ti
 Driver: 460.73.01
-Python version: 3.6
 CUDA version: 11.2
 ```
 
