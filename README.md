@@ -32,7 +32,7 @@ Download link: https://drive.google.com/file/d/1Gpdt7QhKKuoc8uTpJLZTGHIALsL6nz8H
 
 ## How to run demo
 ```
-python main.py
+python main_v2.py
 ```
 *it is possible that an extra library needs to be installed to run this source code.
 
