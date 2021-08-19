@@ -101,12 +101,9 @@ def detect_face(img, detector_backend = 'opencv', grayscale = False, enforce_det
 		return detected_face, img_region
 	else:
 		if detected_face == None:
-			if enforce_detection != True:
-			  return img, img_region
-			else:
-			  raise ValueError("Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.")
+			  return img, []
 
-def preprocess_face(img, target_size=(224, 224), grayscale = False, enforce_detection = True, detector_backend = 'opencv', return_region = False, align = True):
+def preprocess_face(img, target_size=(224, 224), grayscale = False, enforce_detection = True, detector_backend = 'opencv', return_region = True, align = True):
 
 	#img might be path, base64 or numpy array. Convert it to numpy whatever it is.
 	img = load_image(img)
