@@ -26,7 +26,7 @@ python setup.py install
 ```
 
 Download FER (Facial Expression Recognition) model and save it into './models/RAF-DB/'
-*IF THERE IS NO DICRECTORY, JUST MAKE IT'
+*IF THERE IS NO DIRECTORY, JUST MAKE IT'
 ```
 Download link: https://drive.google.com/file/d/1Gpdt7QhKKuoc8uTpJLZTGHIALsL6nz8H/view?usp=sharing
 ```
