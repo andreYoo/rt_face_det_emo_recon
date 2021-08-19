@@ -25,6 +25,11 @@ cd ./libs/deepface_mod
 python setup.py install
 ```
 
+Download FER (Facial Expression Recognition) model and save it into './models/RAF-DB/'
+```
+Download link: https://drive.google.com/file/d/1Gpdt7QhKKuoc8uTpJLZTGHIALsL6nz8H/view?usp=sharing
+```
+
 ## How to run demo
 ```
 python main.py
