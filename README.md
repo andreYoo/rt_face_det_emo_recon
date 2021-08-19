@@ -62,3 +62,13 @@ Please cite [deepface](https://ieeexplore.ieee.org/document/9259802) and [DDRL](
   organization={IEEE}
 }
 ```
+* FOr Facial Expression Recognition a method of the following paper is used.
+Please cite [Shi et al.,](https://arxiv.org/abs/2103.10189) 
+```BibTeX
+@article{shi2021learning,
+  title={Learning to amend facial expression representation via de-albino and affinity},
+  author={Shi, Jiawei and Zhu, Songhao},
+  journal={arXiv preprint arXiv:2103.10189},
+  year={2021}
+}
+```
