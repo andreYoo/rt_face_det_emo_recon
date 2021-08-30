@@ -16,6 +16,7 @@ Running environment is as follows:
 GPU: Geforce RTX 2080ti
 Driver: 460.73.01
 CUDA version: 11.2
+Python: 3.8
 ```
 
 ## How to prepare.
